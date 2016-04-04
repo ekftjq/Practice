@@ -3,6 +3,8 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        String s = "aaaaaaabcdefg";
+        Compress com = new Compress(s);
+        System.out.println(com.CompressString());
     }
 }
